@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: auto 100vh;
+    height: 100vh;  
+  }
+  
+  /* Estilos do Menu */
+  .menu {
+    background-color:#f5f5f5;
+  }
+  .menu li {
+    list-style: none;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #88aa22;
+  }
+  
+  .site-title, .site-subtitle {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
